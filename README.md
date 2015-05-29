@@ -1,4 +1,4 @@
 LightBlue Bean Projects
 =======================
 
-The (Bean)[https://punchthrough.com/bean/].
+The [Bean](https://punchthrough.com/bean/).
