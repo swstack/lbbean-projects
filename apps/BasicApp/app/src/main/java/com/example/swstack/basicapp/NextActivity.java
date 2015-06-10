@@ -1,14 +1,14 @@
 package com.example.swstack.basicapp;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 
-public class NextActivity extends ActionBarActivity {
+public class NextActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class NextActivity extends ActionBarActivity {
 
     public void backClicked(View view) {
         System.out.print("Going back to main activity!");
-        Intent intent = new Intent(this, NextActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
